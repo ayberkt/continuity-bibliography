@@ -1,0 +1,53 @@
+\documentclass[a4paper]{article}
+
+\usepackage[T1]{fontenc}
+
+\usepackage[usenames, dvipsnames]{xcolor}
+\usepackage[colorlinks]{hyperref}
+
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{fullpage}
+
+\usepackage{graphicx}
+\setlength{\parindent}{0pt}
+
+\title{Bibliography of Continuity in Type Theory}
+\author{Bruno Rocha da Paiva \and Vincent Rahli \and Ayberk Tosun}
+
+\hypersetup{
+  colorlinks = true,
+  linktoc    = page,
+  citecolor  = MidnightBlue,
+  linkcolor  = MidnightBlue,
+  pdfauthor  = {Ayberk\ Tosun},
+  pdftitle   = {Bibliography of Continuity in Type Theory},
+}
+
+\begin{document}
+
+\maketitle
+
+Longley~\cite{longley-not-a-functional-program-1999} pioneered the idea of using
+effects to compute moduli of continuity.
+
+Rahli and Bickford~\cite{rahli-bickford-mscs-2018} applied Longley's method to
+(computational) type theory, extending the idea of writing such effectful
+programs to viewing such programs as realisers of continuity principles in type
+theory.
+
+Coquand and Jaber~\cite{coq-jaber-forcing-2012} proved that MLTT-definable
+functions on the Cantor space are uniformly continuous using forcing.
+
+Ghani, Hancock, and Pattinson~\cite{ghp-continuous-functions-2006} started the
+study of \emph{inductive continuity principle}.
+
+Escard\'o~\cite{mhe-effectful-forcing-2013} used a \textbf{dialogue tree}
+translation for computing moduli of continuity of System~T-definable functions.
+
+Baillon, Mahboubi, and P\'edrot~\cite{bmp-pythia-2022} externally validated a
+continuity principle for a simple \textbf{intensional type theory} with
+restricted dependent elimination.
+
+\end{document}
