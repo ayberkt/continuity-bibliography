@@ -1,1 +1,509 @@
-bibliography/references.bib
+@string{ tc   = "Coquand, Thierry"       }
+@string{ ptj  = "Johnstone, Peter T."    }
+@string{ tdj  = "de Jong, Tom"           }
+@string{ cx   = "Xu, Chuangjie"          }
+@string{ mhe  = "Escard\'o, Mart\'in H." }
+@string{ js   = "Sterling, Jonathan"     }
+@string{ dss  = "Scott, Dana S."         }
+@string{ gs   = "Sambin, Giovanni"       }
+
+@string{ entcs = "Electronic Notes in Theoretical Computer Science" }
+@string{ entics = "Electronic Notes in Theoretical Informatics and Computer Science" }
+@string{ apal  = "Annals of Pure and Applied Logic"                 }
+@string{ lncs  = "Lecture Notes in Computer Science"                }
+@string{ lmcs  = "Logical Methods in Computer Science"              }
+@string{ jfp   = "Journal of Functional Programming"                }
+
+@string{ cup   = "Cambridge University Press"        }
+@string{ oup   = "Oxford University Press"           }
+@string{ els   = "Elsevier Science Publishers B. V." }
+@string{ spr   = "Springer Berlin Heidelberg"        }
+
+@inproceedings{patch-short,
+  title        = {On the {{Compact-regular Coreflection}} of a {{Stably Compact Locale}}},
+  author       = mhe,
+  year         = {1999},
+  booktitle    = entcs,
+  volume       = {20},
+  pages        = {213--228},
+  doi          = {10.1016/S1571-0661(04)80076-8}
+}
+
+@article{patch-full,
+  title        = {The regular-locally compact coreflection of a stably locally
+	          compact locale},
+  author       = mhe,
+  year         = {2001},
+  journal      = {Journal of pure and applied algebra},
+  issn         = {0022-4049},
+  pages        = {41--55},
+  volume       = {157},
+  number       = {1},
+  langid       = {english}
+}
+
+
+
+@book{stone-spaces,
+  title        = {Stone Spaces},
+  author       = ptj,
+  date         = {2002},
+  series       = {Cambridge Studies in Advanced Mathematics},
+  publisher    = cup,
+  location     = {{Cambridge}},
+  isbn         = {978-0-521-33779-3},
+  langid       = {english}
+}
+
+@article{topological-topos,
+  title        = {On a {{Topological Topos}}},
+  author       = ptj,
+  date         = {1979-03-01},
+  journaltitle = {Proceedings of the London Mathematical Society},
+  shortjournal = {Proc. London Math. Soc.},
+  issue        = {S3},
+  volume       = {38},
+  number       = {2},
+  pages        = {237--271},
+  doi          = {10.1112/plms/s3-38.2.237}
+}
+
+
+@misc{type-topology,
+  title        = {{TypeTopology}},
+  author       = {Escard\'o, Mart\'in H. and {contributors}},
+  url          = {https://github.com/martinescardo/TypeTopology},
+  year         = {2023},
+  note         = {{Agda} development}
+}
+
+@article{isbell-atomless-parts,
+  title        = {Atomless {{Parts of Spaces}}},
+  author       = {Isbell, John R.},
+  date         = {1972-06-01},
+  issn         = {0025-5521},
+  journal      = {Mathematica scandinavica},
+  pages        = {5},
+  volume       = {31},
+  langid       = {english},
+}
+
+@article{escardo-xu-kleene-kreisel,
+  title        = {A constructive manifestation of the {Kleene-Kreisel} continuous functionals},
+  author       = {Escard\'o, Mart\'in H. and cx},
+  issn         = {0168-0072},
+  journal      = apal,
+  pages        = {770--793},
+  volume       = {167},
+  number       = {9},
+  year         = {2016},
+  langid       = {english},
+}
+
+@incollection{xu-escardo-model-of-uc,
+  title        = {A Constructive Model of Uniform Continuity},
+  author       = {Xu, Chuangjie and Escard\'o, Mart\'in H.},
+  year         = {2013},
+  booktitle    = {Typed Lambda Calculi and Applications},
+  editor       = {Hasegawa, Masahito},
+  series       = lncs,
+  pages        = {236--249},
+  publisher    = spr,
+  isbn         = {9783642389450},
+  address      = {Berlin, Heidelberg}
+}
+
+@inproceedings{mhe-effectful-forcing-2013,
+  title     = {Continuity of G\"odel's System~T Definable Functionals via Effectful Forcing},
+  author    = mhe,
+  booktitle = entcs,
+  pages     = {119--141},
+  volume    = {298},
+  publisher = els,
+  year      = {2013}
+}
+
+@phdthesis{xu-thesis,
+  title        = {A continuous computational interpretation of type theories},
+  author       = cx,
+  year         = {2015},
+  school       = {University of Birmingham}
+}
+
+@InProceedings{scott-domains-for-ds,
+  title        = {Domains for denotational semantics},
+  author       = dss,
+  editor       = {Nielsen, Mogens and Schmidt, Erik M.},
+  booktitle    = {Automata, Languages and Programming},
+  series       = lncs,
+  date         = {1982-07},
+  volume       = {140},
+  publisher    = {Springer Berlin Heidelberg},
+  location     = {Berlin, Heidelberg},
+  pages        = {577--610},
+  isbn         = {978-3-540-39308-5}
+}
+
+
+@phdthesis{tdj-thesis,
+  title        = {Domain Theory in Constructive and Predicative Univalent Foundations},
+  author       = tdj,
+  year         = {2023},
+  school       = {University of Birmingham},
+  langid       = {english}
+}
+
+@inproceedings{tdj-escardo-predicative-aspects,
+  title        = {{Predicative Aspects of Order Theory in Univalent Foundations}},
+  author       = {de Jong, Tom and Escard\'{o}, Mart{\'\i}n H\"{o}tzel},
+  booktitle    = {6th International Conference on Formal Structures for Computation and Deduction (FSCD 2021)},
+  pages        = {8:1--8:18},
+  series       = {Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN         = {978-3-95977-191-7},
+  year         = {2021},
+  volume       = {195},
+  editor       = {Kobayashi, Naoki},
+  publisher    = {Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address      = {Dagstuhl, Germany},
+  URL          = {https://drops.dagstuhl.de/opus/volltexte/2021/14246},
+  doi          = {10.4230/LIPIcs.FSCD.2021.8}
+}
+
+@article{escardo-joins,
+  title        = {Joins in the frame of nuclei},
+  author       = mhe,
+  journal      = {Applied Categorical Structures},
+  volume       = {11},
+  number       = {2},
+  pages        = {117--124},
+  year         = {2003}
+}
+
+@book{cont-lat-and-dom,
+  title        = {{Continuous} {Lattices} and {Domains}},
+  author       = {Gierz, G. and Hofmann, K. H. and Keimel, K. and Lawson, J. D. and Mislove, M. and Scott, D. S.},
+  series       = {Encyclopedia of mathematics and its applications},
+  publisher    = cup,
+  isbn         = {9780521803380},
+  year         = {2003},
+  langid       = {english},
+  address      = {Cambridge, UK}
+}
+
+@inproceedings{simmons-cantor-bendixson,
+  title        = {An algebraic version of Cantor-Bendixson analysis},
+  author       = {Simmons, Harold},
+  booktitle    = {Categorical Aspects of Topology and Analysis: Proceedings of an
+                  International Conference Held at Carleton University, Ottawa, August
+                  11--15},
+  pages        = {310--323},
+  year         = {1981},
+  organization = {Springer}
+}
+
+@article{banaschewski-localic-tychonoff,
+  title        = {Another look at the localic Tychonoff theorem},
+  author       = {Banaschewski, Bernhard},
+  journal      = {Commentationes Mathematicae Universitatis Carolinae},
+  volume       = {29},
+  number       = {4},
+  pages        = {647--656},
+  year         = {1988}
+}
+
+@article{johnstone-two-notes,
+  title        = {Two notes on nuclei},
+  author       = ptj,
+  journal      = {Order},
+  volume       = {7},
+  pages        = {205--210},
+  year         = {1990},
+}
+
+@phdthesis{wilson-thesis,
+  title        = {The Assembly Tower and Some Categorical and Algebraic Aspects of Frame Theory},
+  author       = {Wilson, Todd J.},
+  year         = {1994},
+  school       = {Carnegie Mellon University},
+  address      = {Pittsburgh, PA}
+}
+
+@article{exhaustible-sets,
+  title        = {Exhaustible sets in higher-type computation},
+  author       = mhe,
+  year         = {2008},
+  issn         = {1860-5974},
+  journal      = lmcs,
+  volume       = {4},
+  number       = {3},
+  langid       = {english},
+}
+
+@misc{bridges-topological-and-uniform,
+  title        = {{Lectures on Topological and Uniform Spaces}},
+  author       = {Bridges, Douglas S.},
+  year         = {2022},
+  langid       = {english},
+  note         = {Unpublished lecture notes}
+}
+
+@book{bridges-richman-varieties,
+  title        = {Varieties of constructive mathematics},
+  author       = {Bridges, Douglas S. and Richman, Fred},
+  series       = {{London} Mathematical Society Lecture Note Series, vol. 97},
+  isbn         = {9780511565663},
+  year         = {1987},
+  title        = {Varieties of constructive mathematics [electronic resource]},
+  address      = {Cambridge}
+}
+
+@inproceedings{escardo-oliva-tutorial,
+  title        = {What Sequential Games, the Tychonoff Theorem and the
+	          Double-Negation Shift Have in Common},
+  author       = {Escard\'o, Mart\'in H. and Oliva, Paulo},
+  year         = {2010},
+  isbn         = {9781450302555},
+  publisher    = {Association for Computing Machinery},
+  url          = {https://doi.org/10.1145/1863597.1863605},
+  doi          = {10.1145/1863597.1863605},
+  booktitle    = {Proceedings of the Third ACM SIGPLAN Workshop on
+	          Mathematically Structured Functional Programming},
+  pages        = {21–32},
+  location     = {Baltimore, Maryland, USA},
+  series       = {MSFP 2010}
+}
+
+@inproceedings{escardo-oliva-computational-interpretations,
+  title        = {Computational Interpretations of Analysis via Products of Selection Functions},
+  author       = {Escard\'o, Mart\'in H. and Oliva, Paulo},
+  year         = {2010},
+  series       = {Lecture Notes in Computer Science},
+  pages        = {141--150},
+  publisher    = {Springer Berlin Heidelberg},
+  booktitle    = {Programs, Proofs, Processes},
+  isbn         = {9783642139611},
+  language     = {english},
+  address      = {Berlin, Heidelberg},
+}
+
+@book{sheaves,
+  title     = {Sheaves in Geometry and Logic},
+  author    = {MacLane, Saunders and Moerdijk, Ieke},
+  series    = {Universitext},
+  publisher = {Springer New York},
+  isbn      = {9780387977102},
+  year      = {1994},
+  title     = {Sheaves in Geometry and Logic: A First Introduction to Topos Theory},
+  language  = {eng},
+  address   = {New York, NY}
+}
+
+@article{sterling-brouwers-thesis,
+  author = js,
+  title = {Higher order functions and Brouwer's thesis},
+  date = {2021},
+  doi = {10.1017/S0956796821000095},
+  eprint = {1608.03814},
+  eprintclass = {math.LO},
+  eprinttype = {arXiv},
+  journaltitle = {Journal of Functional Programming},
+  note = {\emph{Bob Harper Festschrift Collection}},
+  pages = {e11},
+  volume = {31}
+}
+
+@inproceedings{tosun-escardo-patch-mfps,
+  title     = {{Patch Locale of a Spectral Locale in Univalent Type Theory}},
+  author    = {Ayberk Tosun and Mart\'in H. Escard\'o},
+  url       = {https://entics.episciences.org/10808},
+  doi       = {10.46298/entics.10808},
+  series    = {{Electronic Notes in Theoretical Informatics and Computer Science}},
+  volume    = {1},
+  booktitle = {Proceedings of MFPS XXXVIII},
+  date      = {2023-02}
+}
+
+@InProceedings{cohen-rahli-2022-unprejudiced,
+  author    = {Liron Cohen and Vincent Rahli},
+  title     = {{Constructing Unprejudiced Extensional Type Theories with
+	       Choices via Modalities}},
+  booktitle = {7th International Conference on Formal Structures for Computation
+	       and Deduction (FSCD 2022)},
+  pages     = {10:1--10:23},
+  series    = {Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN      = {978-3-95977-233-4},
+  year      = {2022},
+  volume    = {228},
+  editor    = {Felty, Amy P.},
+  publisher = {Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address   = {Dagstuhl, Germany},
+  url       = {https://drops.dagstuhl.de/opus/volltexte/2022/16291},
+  doi       = {10.4230/LIPIcs.FSCD.2022.10}
+}
+
+@article{smyth-largest-ccc,
+  title     = {The largest cartesian closed category of domains},
+  author    = {Smyth, Michael B.},
+  issn      = {0304-3975},
+  journal   = {Theoretical Computer Science},
+  pages     = {109--119},
+  volume    = {27},
+  number    = {1},
+  year      = {1983}
+}
+
+@unpublished{voevodsky-resizing,
+  title     = {Resizing {{Rules}} -- Their Use and Semantic Justification},
+  author    = {Vladimir Voevodsky},
+  date      = {2011-09-11},
+  venue     = {{Bergen, Norway}},
+  note      = {Invited talk at TYPES 2011},
+  url       = {https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/2011_Bergen.pdf}
+}
+
+@book{scott-data-types-as-lattices,
+  title     = {Data types as lattices},
+  author    = dss,
+  year      = {1976},
+  series    = {Technical monograph (Oxford University Computing Laboratory. Programming Research Group) ; PRG-5},
+  publisher = {Oxford University Computing Laboratory, Programming Research Group},
+  isbn      = {9780902928107},
+  address   = {Oxford, UK},
+}
+
+@incollection{int-formal-spaces,
+  title     = {Intuitionistic {{Formal Spaces}} — {{A First Communication}}},
+  booktitle = {Mathematical {{Logic}} and {{Its Applications}}},
+  author    = gs,
+  editor    = {Skordev, Dimiter G.},
+  year      = {1987},
+  pages     = {187--204},
+  publisher = {{Springer US}},
+  location  = {{Boston, MA}},
+  doi       = {10.1007/978-1-4613-0897-3_12},
+  isbn      = {978-1-4613-0897-3},
+  langid    = {english}
+}
+
+@article{cssv-inductively-generated,
+  title     = {Inductively generated formal topologies},
+  author    = {Thierry Coquand and Giovanni Sambin and Jan Smith and Silvio Valentini},
+  year      = {2003},
+  issn      = {0168-0072},
+  journal   = apal,
+  pages     = {71--106},
+  volume    = {124},
+  number    = {1},
+}
+
+@inbook{coq-tosun-book-chapter,
+  title     = {Formal Topology and Univalent Foundations},
+  author    = {Thierry Coquand and Ayberk Tosun},
+  year      = {2021},
+  booktitle = {Proof and Computation II},
+  chapter   = {6},
+  pages     = {255-266},
+  doi       = {10.1142/9789811236488_0006},
+  url       = {https://www.worldscientific.com/doi/abs/10.1142/9789811236488_0006}
+}
+
+@inproceedings{longley-not-a-functional-program-1999,
+  author    = {John Longley},
+  title     = {When is a Functional Program Not a Functional Program?},
+  year      = {1999},
+  isbn      = {1581131119},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/317636.317775},
+  doi       = {10.1145/317636.317775},
+  booktitle = {Proceedings of the Fourth ACM SIGPLAN International Conference on Functional Programming},
+  pages     = {1–7},
+  location  = {Paris, France},
+  series    = {ICFP '99}
+}
+
+@inbook{coq-jaber-forcing-2012,
+  author    = {Coquand, Thierry and Jaber, Guilhem},
+  editor    = {Peter Dybjer and Sten Lindstr\"{o}m and Erik Palmgren and G\"{o}ran B. Sundholm},
+  publisher = {Springer Netherlands},
+  booktitle = {Epistemology versus Ontology},
+  date      = {2012},
+  isbn      = {978-94-007-4434-9},
+  pages     = {203--213},
+  series    = {Logic, Epistemology, and the Unity of Science},
+  title     = {A Computational Interpretation of Forcing in Type Theory},
+  volume    = {27}
+}
+
+@article{rahli-bickford-mscs-2018,
+  title     = {Validating Brouwer's continuity principle for numbers using named exceptions},
+  author    = {Vincent Rahli and Mark Bickford},
+  year      = {2018},
+  volume    = {28},
+  doi       = {10.1017/S0960129517000172},
+  number    = {6},
+  journal   = {Mathematical Structures in Computer Science},
+  publisher = cup,
+  pages     = {942–990}
+}
+
+@inproceedings{capretta-uustalu-coalgebraic-view-2016,
+  title     = {A Coalgebraic View of Bar Recursion and Bar Induction},
+  author    = {Venanzio Capretta and Tarmo Uustalu},
+  editor    = {Jacobs, Bart and L{\"o}ding, Christof},
+  booktitle = {Foundations of Software Science and Computation Structures},
+  year      = {2016},
+  publisher = {Springer Berlin Heidelberg},
+  address   = {Berlin, Heidelberg},
+  pages     = {91--106},
+  isbn      = {978-3-662-49630-5}
+}
+
+@inproceedings{bmp-pythia-2022,
+  author    = {Martin Baillon and Assia Mahboubi and Pierre{-}Marie P{\'{e}}drot},
+  editor    = {Florin Manea and Alex Simpson},
+  title     = {Gardening with the Pythia {A} Model of Continuity in a Dependent Setting},
+  booktitle = CSL2022,
+  series    = {LIPIcs},
+  volume    = {216},
+  pages     = {5:1--5:18},
+  publisher = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year      = {2022},
+  url       = {https://doi.org/10.4230/LIPIcs.CSL.2022.5},
+  doi       = {10.4230/LIPIcs.CSL.2022.5},
+  timestamp = {Thu, 27 Jan 2022 17:51:51 +0100},
+  biburl    = {https://dblp.org/rec/conf/csl/BaillonMP22.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{ghp-continuous-functions-2006,
+  author    = {Neil Ghani and Peter G. Hancock and Dirk Pattinson},
+  editor    = {Neil Ghani and John Power},
+  title     = {Continuous Functions on Final Coalgebras},
+  booktitle = {{CMCS}},
+  series    = {Electronic Notes in Theoretical Computer Science},
+  volume    = {164},
+  number    = {1},
+  pages     = {141--155},
+  publisher = els,
+  year      = {2006},
+  url       = {https://doi.org/10.1016/j.entcs.2006.06.009},
+  doi       = {10.1016/j.entcs.2006.06.009},
+}
+
+@misc{cohen-rahli-boxtt-arxiv-2023,
+  title          = {$\text{TT}^{\Box}_{{\mathcal C}}$: a Family of Extensional Type Theories with Effectful Realizers of Continuity},
+  author         = {Liron Cohen and Vincent Rahli},
+  year           = {2023},
+  eprint         = {2307.14168},
+  archivePrefix  = {arXiv},
+  primaryClass   = {cs.LO}
+}
+
+@book{beeson-fcm-1980,
+  title     = {Foundations of Constructive Mathematics},
+  author    = {Beeson, Michael J.},
+  location  = {Berlin, Heidelberg},
+  publisher = {Springer Verlag},
+  date      = {1980}
+}
