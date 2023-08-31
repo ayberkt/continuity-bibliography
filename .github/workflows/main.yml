@@ -10,10 +10,11 @@ jobs:
     steps:
       - name: Set up git repository
         uses: actions/checkout@v3
+        with:
+          submodules: true
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          submodules: true
           root_file: continuity-in-tt.tex
       - name: Upload PDF
         uses: actions/upload-artifact@v3
