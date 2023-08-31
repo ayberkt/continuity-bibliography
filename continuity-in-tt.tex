@@ -9,6 +9,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{fullpage}
+\usepackage[parfill]{parskip}
 
 \usepackage{graphicx}
 \setlength{\parindent}{0pt}
@@ -24,6 +25,9 @@
   pdfauthor  = {Ayberk\ Tosun},
   pdftitle   = {Bibliography of Continuity in Type Theory},
 }
+
+\usepackage[backend=biber, style=alphabetic]{biblatex}
+\addbibresource{references.bib}
 
 \begin{document}
 
@@ -49,5 +53,8 @@ translation for computing moduli of continuity of System~T-definable functions.
 Baillon, Mahboubi, and P\'edrot~\cite{bmp-pythia-2022} externally validated a
 continuity principle for a simple \textbf{intensional type theory} with
 restricted dependent elimination.
+
+\newpage
+\printbibliography
 
 \end{document}
